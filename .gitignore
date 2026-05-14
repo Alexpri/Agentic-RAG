@@ -160,5 +160,7 @@ cython_debug/
 #.idea/
 langchain-docs/
 chroma_db/
+
+.chroma/
 .DS_Store
 .vscode
