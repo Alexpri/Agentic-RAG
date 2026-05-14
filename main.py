@@ -2,10 +2,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
- 
-def main():
-    print("Agentic RAG")
-
+from graph.graph import app
 
 if __name__ == "__main__":
-    main()
+    print(app.invoke(input={"question": "agent memory?"}))
