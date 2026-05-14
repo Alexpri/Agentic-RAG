@@ -1,5 +1,10 @@
+from dotenv import load_dotenv
+
+load_dotenv()
+
+ 
 def main():
-    print("Hello from agentic-rag!")
+    print("Agentic RAG")
 
 
 if __name__ == "__main__":
